@@ -1,6 +1,7 @@
 import App from "./App";
 import Profile from "./components/Profile";
 import ErrorPage from "./components/ErrorPage";
+import Content from "./components/Content";
 
 const routes = [
     {
@@ -9,8 +10,12 @@ const routes = [
         errorElement: <ErrorPage />,
     },
     {
-        path: "profile/:name",
+        path: "profile/:name?",
         element: <Profile />,
+    },
+    {
+        path: "content",
+        element: <Content />,
     },
 ];
 

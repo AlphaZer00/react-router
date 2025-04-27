@@ -11,6 +11,9 @@ function App() {
                     <li>
                         <Link to="profile">Profile Page</Link>
                     </li>
+                    <li>
+                        <Link to="content">Content Page</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
