@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
     return (
@@ -8,7 +9,7 @@ function App() {
             <nav>
                 <ul>
                     <li>
-                        <a href="profile">Profile Page</a>
+                        <Link to="profile">Profile Page</Link>
                     </li>
                 </ul>
             </nav>
