@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import Spinach from "./Spinach";
 import Popeye from "./Popeye";
 import DefaultProfile from "./DefaultProfile";
+import ProfileSelector from "./ProfileSelector";
 
 const Profile = () => {
     const { name } = useParams();
@@ -19,6 +20,9 @@ const Profile = () => {
             ) : (
                 <DefaultProfile />
             )}
+
+            <hr />
+            <ProfileSelector></ProfileSelector>
         </div>
     );
 };

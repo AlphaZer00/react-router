@@ -1,5 +1,6 @@
 import "./App.css";
 import { Link } from "react-router-dom";
+import ProfileSelector from "./components/ProfileSelector";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
                     </li>
                 </ul>
             </nav>
+
+            <ProfileSelector></ProfileSelector>
         </div>
     );
 }
